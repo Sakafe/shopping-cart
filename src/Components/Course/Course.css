@@ -1,0 +1,30 @@
+.course{
+    display: flex;
+    border-bottom: 1px solid gray ;
+}
+.course img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.course-details{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 400;
+}
+.course-details h1{
+    color: crimson;
+}
+.course-details button{
+    /* background-color: hsl(228, 75%, 47%); */
+    color: black;
+    border-radius:3px ;
+    /* box-shadow: 1px 1px 2px rgba(142, 192, 4, 0.5); */
+    cursor:pointer;
+}
+.course-details button:hover{
+    background-color: red;
+}

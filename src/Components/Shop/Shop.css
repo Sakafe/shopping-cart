@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+.course-container{
+    width: 60%;
+    margin: 20px;
+    padding: 5px;
+    border-right: 1px solid lightgray;
+}
+.cart-container{
+   align-items: center;
+    
+}
